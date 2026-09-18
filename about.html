@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Clergy Hub</title>
+  <meta name="description" content="Built by people who've sat in the pews and the back office. Learn about Clergy Hub's origins, approach, and leadership.">
+  <link rel="icon" href="images/logo-mark.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+
+  <!-- ============================= NAVBAR ============================= -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand">
+      <img src="logo2.png" alt="Clergy Hub Logo" class="brand-mark">
+      </a>
+      <nav class="nav-links">
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="impact.html">Impact</a>
+      </nav>
+      <button class="nav-cta btn" data-open-contact>Contact Us</button>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu">
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="impact.html">Impact</a>
+      <a href="#" data-open-contact>Contact Us</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================= OUR ORIGINS ============================= -->
+    <section class="section bg-parchment">
+      <div class="container" style="max-width:65ch;">
+        <div class="section-header left">
+          <h2>Our origins</h2>
+        </div>
+        <p class="prose" style="margin-top:24px;">
+          Clergy Hub started with a stack of attendance registers and a question: why does software help every kind of organization know its people except the church? Our founding team had each, separately, watched a congregation lose someone quietly — not from a crisis of faith, but from being missed. We built the tool we wished existed.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================= TEAM IN ACTION ============================= -->
+    <section class="image-break" style="height:55vh;">
+      <img src="about.jpg" alt="Clergy Hub team working together">
+    </section>
+
+    <!-- ============================= OUR APPROACH ============================= -->
+    <section class="section bg-parchment">
+      <div class="container text-center" style="max-width:65ch; margin-inline:auto;">
+        <div class="section-header">
+          <h2>Our approach</h2>
+        </div>
+        <p class="prose" style="margin-top:24px; margin-inline:auto;">
+          We spend a week embedded in a church before we design for it. Every feature ships to a handful of real congregations first, and only earns a wider release once pastors — not our own team — decide it's actually useful on a Sunday.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================= MISSION / VISION / VALUES ============================= -->
+    <section class="section" style="background:var(--parchment-100);">
+      <div class="container grid-3">
+        <div class="card">
+          <h3>Mission</h3>
+          <p>Equip clergy with clear, trustworthy tools so no one in their care is overlooked.</p>
+        </div>
+        <div class="card">
+          <h3>Vision</h3>
+          <p>A world where every congregation, of any size, has the same clarity a Fortune 500 team has about its people.</p>
+        </div>
+        <div class="card">
+          <h3>Core values</h3>
+          <p>Built with pastors, not just for them. Simple before clever. Trust earned in the details.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= LEADERSHIP ============================= -->
+    <section class="section bg-parchment">
+      <div class="container">
+        <div class="section-header">
+          <h2>Leadership</h2>
+        </div>
+        <div class="people-grid" style="margin-top:56px;">
+          <div class="person">
+            <div class="portrait"><img src="desmond.jpg" alt="Desmond Ogeto"></div>
+            <p class="name">Desmond Ogeto</p>
+            <p class="role">Chief Executive Officer</p>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/desmond-ogeto-812336364/" aria-label="Desmond Ogeto on LinkedIn">LinkedIn</a>
+            </div>
+          </div>
+          <div class="person">
+            <div class="portrait"><img src="brian.jpg" alt="Brian Mutune"></div>
+            <p class="name">Brian Mutune</p>
+            <p class="role">Chief Technology Officer</p>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/brian-mutune/" aria-label="Brian Mutune on LinkedIn">LinkedIn</a>
+            </div>
+          </div>
+          <div class="person">
+            <div class="portrait"><img src="victorgithae.jpg" alt="Victor Githae"></div>
+            <p class="name">Victor Githae</p>
+            <p class="role">Chief Marketing Officer</p>
+            <div class="socials">
+              <a href="https://linkedin.com/victor-githae/" aria-label="Victor Githae on LinkedIn">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div>
+        <a href="index.html" class="brand">
+          <img src="logo1.png" alt="Clergy Hub Logo" class="brand-mark">
+        </a>
+        <p class="footer-blurb">Tools that help clergy know their congregation and lead with clarity, built for the way ministry actually works.</p>
+        <form class="newsletter-form">
+          <label for="newsletter" class="sr-only">Email address</label>
+          <input type="email" id="newsletter" required placeholder="Your email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-col">
+        <h3>Platform</h3>
+        <ul>
+          <li><a href="products.html">Church Pilot</a></li>
+          <li><a href="products.html">Roadmap</a></li>
+          <li><a href="products.html">Request a demo</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="about.html">Our approach</a></li>
+          <li><a href="about.html">Leadership</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="impact.html">Impact report</a></li>
+          <li><a href="#" data-open-contact>Help center</a></li>
+          <li><a href="#" data-open-contact>Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-mid">
+      <div class="container">
+        <p>hello@clergyhub.com &nbsp;·&nbsp; Nairobi, Kenya</p>
+        <div class="footer-socials">
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://youtube.com" target="_blank" rel="noreferrer">YouTube</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://x.com" target="_blank" rel="noreferrer">X</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Clergy Hub. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- ============================= CONTACT MODAL ============================= -->
+  <div class="modal-overlay" id="contactModal" role="dialog" aria-modal="true" aria-label="Contact Clergy Hub">
+    <button class="modal-backdrop" data-close-contact aria-label="Close contact form"></button>
+    <div class="modal-panel">
+      <div class="modal-logo-panel">
+        <img src="logo2.png" alt="Clergy Hub — Know your flock. Lead with clarity.">
+      </div>
+      <div class="modal-form-panel modal-scrollable">
+        <button class="modal-close" data-close-contact aria-label="Close">&times;</button>
+        <form id="contactForm">
+          <h2>Let's talk.</h2>
+          <p>Tell us about your church and what you're hoping for.</p>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your full name">
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@church.org">
+          </div>
+          <div class="form-field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+254 700 000000">
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="How can we help?"></textarea>
+          </div>
+          <div class="form-field checkbox-field" style="display: flex; align-items: flex-start; gap: 10px; margin-top: 12px;">
+            <input type="checkbox" id="privacyConsent" name="privacyConsent" required style="margin-top: 4px;">
+            <label for="privacyConsent" style="font-size: 0.9rem; line-height: 1.4; font-weight: normal;">
+              I agree to the collection of my data in accordance with the <a href="privacy.html" target="_blank" style="text-decoration: underline;">Privacy Policy</a>.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" style="margin-top:20px;">Send message</button>
+        </form>
+        <div class="modal-success" id="contactSuccess">
+          <h2>Message sent.</h2>
+          <p>Thank you for reaching out. <br> Our team will reply within one business day.</p>
+          <button class="btn btn-ghost" data-close-contact>Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
